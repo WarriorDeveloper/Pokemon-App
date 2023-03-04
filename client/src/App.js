@@ -9,6 +9,10 @@ import FormPage from './Pages/FormPage/FormPage'
 // ROUTER
 import { Routes, Route } from 'react-router-dom'
 
+// DEPLOY
+import axios from 'axios'
+axios.defaults.baseURL = 'http://localhost:3001/'
+
 const App = ()=>{
   return (
     <div className="App">
