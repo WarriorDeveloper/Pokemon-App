@@ -1,0 +1,15 @@
+/* BUTTONS */
+.buttons{
+    text-decoration: none;
+
+    font-size: 2rem;
+    color: white;
+    padding: .5rem;
+    transition: .05s;
+
+    cursor: pointer;
+}
+
+.buttons:hover{
+    border: 2.5px solid black;
+}

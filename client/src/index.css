@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Minecraft';
+  src: url('../public/fonts/Minecraft.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F9CA18;
+  font-family: 'Minecraft';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

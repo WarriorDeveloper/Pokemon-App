@@ -1,0 +1,16 @@
+.container{
+    background-image: url('../../../public/image/wallpaper-landing-page.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    text-align: center;
+}
+
+.title{
+    margin: 0;
+    padding: 5rem;
+    height: max-content;
+
+    font-size: 5rem;
+}

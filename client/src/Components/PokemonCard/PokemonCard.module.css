@@ -1,0 +1,43 @@
+.link{
+    text-decoration: none;
+    width: min-content;
+}
+
+.colorsCard{
+    width: min-content;
+    background-color: white;
+    padding: 4px;
+    
+    align-items: center;
+    box-shadow: 0 120px red inset,
+                0 180px black inset;
+}
+
+.container{
+    background-color: rgb(241, 238, 238);
+    width: 200px; /*min-content*/
+    height: 288px; /*18rem*/
+    text-decoration: none;
+
+    text-align: center;
+}
+
+.img {
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+.container h2 {
+    margin: 0;
+    padding: 2px;
+}
+
+.types{
+    margin: 0;
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
