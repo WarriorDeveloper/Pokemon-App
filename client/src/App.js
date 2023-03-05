@@ -11,7 +11,7 @@ import { Routes, Route } from 'react-router-dom'
 
 // DEPLOY
 import axios from 'axios'
-axios.defaults.baseURL = 'http://localhost:3001/'
+axios.defaults.baseURL = 'https://pokemon-app-production-d4f3.up.railway.app/'
 
 const App = ()=>{
   return (
