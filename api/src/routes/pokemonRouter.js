@@ -30,7 +30,7 @@ router.get('/:idPokemon', async (req, res)=>{
 
 router.post('/', async(req, res)=>{
     try {
-        const {name, image, hp, attack, defense, speed, height, weight, types, region} = req.body
+        const {name, image, hp, attack, defense, speed, height, weight, types} = req.body
         if(!name || !image || !hp || !attack || !defense || !speed || !height || !weight || !types) throw Error('missing Data')
         if (isNaN(Number(hp)) || isNaN(Number(attack)) || isNaN(Number(defense)) || isNaN(Number(speed)) || isNaN(Number(height)) || isNaN(Number(weight))) throw Error('data type error')
         if (!Array.isArray(types)) throw Error('types must be an array')

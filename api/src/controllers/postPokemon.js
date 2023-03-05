@@ -31,8 +31,7 @@ const postPokemon = async (pokemon) => {
             defense: pokemon.defense,
             speed: pokemon.speed,
             height: pokemon.height,
-            weight: pokemon.weight,
-            region: pokemon.region
+            weight: pokemon.weight
         })
         await newPokemon.addTypes(idTypesAdd)
 
